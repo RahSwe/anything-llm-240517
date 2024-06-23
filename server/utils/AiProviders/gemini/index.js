@@ -96,7 +96,7 @@ class GeminiLLM {
       case "gemini-1.5-flash-latest":
         return 1_048_576;
       case "gemini-1.5-pro-latest":
-        return 1_048_576;
+        return 2_097_152;
       default:
         return 30_720; // assume a gemini-pro model
     }
